@@ -1,11 +1,8 @@
-import React from 'react'
+import React from 'react';
+import CollaborativeEditor from './components/CollaborativeEditor';
 
+const App: React.FC = () => {
+  return <CollaborativeEditor />;
+};
 
-
-const App = () => {
-  return (
-    <div>App</div>
-  )
-}
-
-export default App
+export default App;
