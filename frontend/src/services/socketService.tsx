@@ -3,7 +3,7 @@ import io, { Socket } from 'socket.io-client';
 class SocketService {
   private socket: Socket | null = null;
 
-  connect(url: string = 'http://localhost:3000') {
+  connect(url: string = 'http://localhost:3001') {
     this.socket = io(url);
     
     this.socket.on('connect', () => {
